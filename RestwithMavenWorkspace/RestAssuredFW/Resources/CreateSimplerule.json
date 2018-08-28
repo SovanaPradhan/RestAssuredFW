@@ -1,0 +1,14 @@
+{  
+   "ruleName":"FirstAutomate4",
+   "description":"Firstautomate -description4",
+   "dsl":"[condition][]There is Loan=$inputPayload : HashMap()\r\n[condition][]-having Loan transaction type {String_0}=eval({String_0}.equalsIgnoreCase((String) DomainUtility.get($inputPayload,\"loan.transactionType\")))\r\n[condition][]-having Borrower credit score greater than {Integer_0}=eval({Integer_0} < Integer.valueOf(DomainUtility.get($inputPayload,\"borrower.creditScore\").toString())) \r\n[consequence][]Loan is feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is feasible\");\r\n[consequence][]Loan is not feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is not feasible\");",
+   "dslr":"package com.demoRuleimport com.altisource.ruleengine.util.DomainUtility;import java.util.Map;import java.util.HashMap;global com.altisource.ruleengine.model.RuleResponse ruleResponse; rule \"Loan is feasible if TransactionType is Purchase\"activation-group \"feasibility\"salience 2when\t\tThere is Loan        -having Loan transaction type \"Purchase\"        -having Borrower credit score greater than 400then       Loan is feasibleendrule \"Loan is not feasible if TransactionType is not Purchase\"activation-group \"feasibility\"salience 1when\t\tThere is Loanthen       Loan is not feasibleend",
+   "drl":null,
+   "logicalOperator":null,
+   "ruleMappings":null,
+   "ruleCombinator":null,
+   "active":true,
+   "configData":[  
+      "ProgramLimit119"
+   ]
+}

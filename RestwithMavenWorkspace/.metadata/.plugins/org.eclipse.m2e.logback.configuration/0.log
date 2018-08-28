@@ -1,0 +1,669 @@
+2018-04-08 16:54:50,862 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml
+2018-04-08 16:54:52,258 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-08 16:54:53,816 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-08 16:54:53,823 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-08 16:54:55,068 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2018-04-08 16:54:55,636 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:54:55,637 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-08 16:54:55,640 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:54:55,640 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-08 16:56:15,607 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-08 16:56:16,255 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:56:16,256 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-08 16:56:16,262 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:56:16,262 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-08 16:56:54,682 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-08 16:56:55,998 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-08 16:56:56,639 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured/3.0.7/rest-assured-3.0.7.pom
+2018-04-08 16:56:57,119 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-path/3.0.7/json-path-3.0.7.pom
+2018-04-08 16:56:57,560 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/xml-path/3.0.7/xml-path-3.0.7.pom
+2018-04-08 16:56:57,993 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.7/json-schema-validator-3.0.7.pom
+2018-04-08 16:56:58,339 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-08 16:56:58,340 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-08 16:56:58,544 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-04-08 16:56:58,725 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:56:58,725 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-08 16:56:58,727 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:56:58,728 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-08 16:57:17,385 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:57:17,387 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-08 16:57:17,390 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:57:17,390 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-08 16:57:23,766 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:57:23,775 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-08 16:57:23,780 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:57:23,781 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-08 16:57:35,442 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:57:35,442 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-08 16:57:35,447 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:57:35,447 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-08 16:58:00,656 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-08 16:58:01,260 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-08 16:58:01,695 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured/3.0.7/rest-assured-3.0.7.pom
+2018-04-08 16:58:02,150 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-path/3.0.7/json-path-3.0.7.pom
+2018-04-08 16:58:02,597 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/xml-path/3.0.7/xml-path-3.0.7.pom
+2018-04-08 16:58:03,054 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.7/json-schema-validator-3.0.7.pom
+2018-04-08 16:58:03,264 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-08 16:58:03,265 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-08 16:58:03,376 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-04-08 16:58:03,553 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:58:03,553 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-08 16:58:03,556 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-08 16:58:03,556 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-09 13:00:02,316 [Worker-142] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-09 13:00:07,232 [Worker-142] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-09 13:00:08,280 [Worker-142] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-09 13:00:08,280 [Worker-142] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-09 13:00:08,545 [Worker-142] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2018-04-09 13:00:08,717 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-09 13:00:08,717 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-09 13:00:08,717 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-09 13:00:08,717 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-09 13:01:10,662 [Worker-139] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-09 13:01:10,662 [Worker-139] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-09 13:02:51,203 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-09 13:02:51,203 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-09 13:02:51,203 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-09 13:02:51,203 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-09 13:04:08,041 [Worker-143] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-09 13:04:08,578 [Worker-143] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-09 13:04:09,707 [Worker-143] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-09 13:04:09,707 [Worker-143] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-09 13:04:10,006 [Worker-143] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-04-09 13:04:10,773 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-09 13:04:10,773 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-09 13:04:10,776 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-09 13:04:10,776 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-12 11:09:03,222 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:09:03,238 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-12 11:09:03,246 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:09:03,246 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-12 11:19:45,433 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:19:45,434 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-12 11:19:45,435 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:19:45,436 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-12 11:27:32,251 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:27:32,251 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-12 11:27:32,253 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:27:32,254 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-12 18:56:57,792 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 18:56:57,796 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-12 18:56:57,799 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 18:56:57,800 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-12 18:57:11,021 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 18:57:11,022 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-12 18:57:11,025 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 18:57:11,026 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 10:36:27,987 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:36:27,987 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 10:36:27,987 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:36:27,987 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 10:37:31,475 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:37:31,476 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 10:37:31,478 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:37:31,478 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 10:40:54,303 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:40:54,304 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 10:40:54,309 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:40:54,309 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 10:57:29,935 [Worker-210] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-13 10:57:29,937 [Worker-210] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-13 10:57:36,154 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:57:36,154 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 10:57:36,156 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:57:36,157 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:04:38,749 [Worker-200] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.jar
+2018-04-13 11:04:42,491 [Worker-200] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.jar
+2018-04-13 11:04:43,732 [Worker-200] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-13 11:04:44,714 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:04:44,714 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:04:44,717 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:04:44,718 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:04:45,877 [Worker-200] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom
+2018-04-13 11:04:46,246 [Worker-200] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom
+2018-04-13 11:04:46,833 [Worker-200] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
+2018-04-13 11:04:47,387 [Worker-200] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
+2018-04-13 11:05:12,115 [Worker-214] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-13 11:05:12,728 [Worker-214] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-13 11:05:13,368 [Worker-214] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-13 11:05:13,370 [Worker-214] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-13 11:05:13,831 [Worker-214] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-04-13 11:05:14,378 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:14,378 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:05:14,381 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:14,381 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:05:35,800 [Worker-217] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-13 11:05:35,801 [Worker-217] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-04-13 11:05:38,740 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:38,741 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:05:38,746 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:38,747 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:05:46,704 [Worker-216] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-13 11:05:46,704 [Worker-216] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-13 11:05:50,930 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:50,931 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:05:50,935 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:50,937 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:10:22,975 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:10:22,976 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:10:22,977 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:10:22,978 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:10:37,750 [Worker-221] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-13 11:10:38,451 [Worker-221] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-13 11:10:39,272 [Worker-221] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-13 11:10:39,273 [Worker-221] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-13 11:10:39,680 [Worker-221] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-04-13 11:10:40,286 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:10:40,286 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:10:40,288 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:10:40,289 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:14:25,071 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:14:25,072 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:14:25,074 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:14:25,075 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:14:57,675 [Worker-223] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-13 11:14:58,262 [Worker-223] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-13 11:14:58,851 [Worker-223] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/main/java
+2018-04-13 11:14:58,852 [Worker-223] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestAssuredFW/src/test/java
+2018-04-13 11:14:59,115 [Worker-223] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-04-13 11:14:59,605 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:14:59,605 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:14:59,607 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:14:59,607 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:15:09,129 [Worker-200] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-13 11:15:09,130 [Worker-200] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-04-13 11:15:12,013 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:15:12,013 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:15:12,015 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:15:12,015 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:15:25,538 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-13 11:15:25,539 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-13 11:15:30,546 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:15:30,547 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:15:30,549 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:15:30,550 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:15:51,845 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:15:51,846 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:15:51,848 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:15:51,848 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:22:41,569 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:22:41,574 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:22:41,576 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:22:41,576 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:23:19,531 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-13 11:23:19,532 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-13 11:24:07,407 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:24:07,408 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:24:07,410 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:24:07,411 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:39:11,126 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:11,126 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:39:11,129 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:11,130 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:39:25,901 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:25,901 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:39:25,903 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:25,903 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:39:33,830 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:33,831 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:39:33,833 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:33,834 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:39:38,911 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:38,911 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:39:38,913 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:39:38,914 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:40:00,054 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:40:00,054 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:40:00,056 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:40:00,057 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 11:43:54,137 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:43:54,138 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 11:43:54,142 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:43:54,143 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 15:57:08,827 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 15:57:08,831 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 15:57:08,835 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 15:57:08,839 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 19:32:54,597 [Worker-128] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-13 19:32:56,921 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 19:32:56,921 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 19:32:56,937 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 19:32:56,937 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-13 19:32:59,260 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 19:32:59,260 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-13 19:32:59,262 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 19:32:59,263 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-15 16:49:16,579 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-15 16:49:16,579 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-15 16:49:16,579 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-15 16:49:16,579 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-17 10:50:17,117 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 10:50:17,124 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-17 10:50:17,129 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 10:50:17,129 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-17 12:34:59,478 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:34:59,486 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\main\resources
+2018-04-17 12:34:59,489 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:34:59,490 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-17 12:37:18,409 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-17 12:37:19,526 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:37:19,530 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 12:37:19,534 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:37:19,534 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-17 12:37:42,111 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-17 12:37:42,113 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 12:37:52,379 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:37:52,384 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-17 12:37:52,391 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:37:52,391 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-17 13:12:30,770 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:12:30,774 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-17 13:12:30,785 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:12:30,786 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 07:46:21,044 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-22 07:46:24,859 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 07:46:24,865 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-22 07:46:24,878 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 07:46:24,879 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 07:46:28,320 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-22 07:46:28,322 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-22 07:46:37,555 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 07:46:37,559 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-22 07:46:37,562 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 07:46:37,562 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 07:48:18,914 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 07:48:18,919 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-22 07:48:18,922 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 07:48:18,923 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:02:40,350 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-22 08:02:40,351 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-22 08:02:47,739 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:02:47,739 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-22 08:02:47,741 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:02:47,741 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:03:00,262 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:03:00,265 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-22 08:03:00,270 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:03:00,271 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:04:00,853 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:04:00,854 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-22 08:04:00,859 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:04:00,859 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:04:21,506 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:04:21,508 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-22 08:04:21,518 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:04:21,519 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:06:29,210 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:06:29,211 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-22 08:06:29,216 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:06:29,218 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:07:35,648 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:07:35,649 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-22 08:07:35,659 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:07:35,660 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:07:45,214 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:07:45,215 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-22 08:07:45,233 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:07:45,234 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 08:09:06,167 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:09:06,169 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-22 08:09:06,172 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 08:09:06,173 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 16:29:34,083 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 16:29:34,096 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-22 16:29:34,117 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 16:29:34,118 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 16:30:17,746 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 16:30:17,746 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-22 16:30:17,756 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 16:30:17,756 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 16:33:15,788 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 16:33:15,788 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-22 16:33:15,788 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 16:33:15,788 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 17:17:23,347 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 17:17:23,351 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-22 17:17:23,358 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 17:17:23,359 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 17:31:19,845 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 17:31:19,845 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-22 17:31:19,849 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 17:31:19,849 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-22 18:34:53,796 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 18:34:53,801 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-22 18:34:53,809 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-22 18:34:53,811 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-23 17:25:30,503 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-23 17:25:30,503 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-23 17:25:30,519 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-23 17:25:30,519 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-24 15:08:08,248 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:08:08,268 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-24 15:08:08,328 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:08:08,329 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-24 15:33:19,357 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:33:19,373 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-24 15:33:19,373 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:33:19,373 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-24 15:33:52,447 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:33:52,447 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 15:33:52,463 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:33:52,463 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-24 15:34:20,924 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RestwithMavenWorkspace\RestAssuredFW
+2018-04-24 15:34:20,924 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-24 15:34:29,707 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:34:29,708 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 15:34:29,710 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:34:29,710 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-24 15:36:28,493 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:36:28,495 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-24 15:36:28,498 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:36:28,498 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-24 15:47:54,501 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:47:54,501 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 15:47:54,516 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:47:54,516 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-24 15:48:35,990 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:48:36,005 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-24 15:48:36,005 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-24 15:48:36,005 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-25 11:44:33,551 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-25 11:44:33,557 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-25 11:44:33,560 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-25 11:44:33,561 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-25 12:00:55,141 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-25 12:00:55,142 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-25 12:00:55,144 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-25 12:00:55,145 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-25 12:06:37,680 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-25 12:06:37,683 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-25 12:06:37,687 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-25 12:06:37,687 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 10:43:33,768 [Worker-263] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-26 10:43:37,428 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.pom
+2018-04-26 10:43:37,759 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.pom
+2018-04-26 10:43:38,127 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.pom
+2018-04-26 10:43:38,430 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.pom
+2018-04-26 10:43:38,688 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.pom
+2018-04-26 10:43:38,999 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.pom
+2018-04-26 10:43:39,261 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.pom
+2018-04-26 10:43:39,579 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.pom
+2018-04-26 10:43:40,042 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom
+2018-04-26 10:43:40,384 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom
+2018-04-26 10:43:41,225 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar
+2018-04-26 10:43:42,397 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar
+2018-04-26 10:43:42,666 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar
+2018-04-26 10:43:44,259 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar
+2018-04-26 10:43:44,507 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.jar
+2018-04-26 10:43:45,517 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.jar
+2018-04-26 10:43:45,766 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar
+2018-04-26 10:43:49,725 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar
+2018-04-26 10:43:49,973 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar
+2018-04-26 10:43:51,417 [Worker-263] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar
+2018-04-26 10:43:56,606 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:43:56,636 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 10:43:56,640 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:43:56,641 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 10:44:00,718 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:44:00,721 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 10:44:00,788 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:44:00,789 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 10:45:19,882 [Worker-263] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-26 10:45:22,241 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:45:22,244 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 10:45:22,249 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:45:22,250 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 10:45:24,516 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:45:24,517 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 10:45:24,537 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:45:24,537 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 10:51:58,943 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:51:58,945 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 10:51:58,949 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:51:58,949 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 10:52:25,851 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:52:25,853 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 10:52:25,856 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 10:52:25,856 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 11:00:48,064 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:00:48,065 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 11:00:48,068 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:00:48,068 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 11:44:15,622 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:44:15,626 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 11:44:15,632 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:44:15,632 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 11:45:10,322 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:45:10,328 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 11:45:10,331 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:45:10,332 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 11:46:12,358 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:46:12,383 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 11:46:12,386 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 11:46:12,386 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:06:05,446 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:06:05,449 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 13:06:05,453 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:06:05,454 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:17:09,270 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:17:09,270 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 13:17:09,274 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:17:09,274 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:17:54,065 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:17:54,065 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 13:17:54,065 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:17:54,069 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:18:15,551 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:18:15,552 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 13:18:15,554 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:18:15,554 [Worker-322] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:19:00,000 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:19:00,000 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 13:19:00,004 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:19:00,004 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:19:19,434 [Worker-320] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.Rest:RestAssuredFW:0.0.1-SNAPSHOT @ D:\RestwithMavenWorkspace\RestAssuredFW\pom.xml.
+2018-04-26 13:19:21,667 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:19:21,670 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 13:19:21,677 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 13:19:21,685 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:19:21,685 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:23:34,732 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:23:34,736 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 13:23:34,736 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 13:23:34,740 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:23:34,740 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:23:42,686 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:23:42,688 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 13:23:42,689 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 13:23:42,692 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:23:42,692 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:23:52,634 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:23:52,634 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 13:23:52,638 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 13:23:52,642 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:23:52,642 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:24:20,176 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:24:20,180 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 13:24:20,184 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 13:24:20,188 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:24:20,188 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 13:24:54,177 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:24:54,177 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 13:24:54,181 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 13:24:54,181 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 13:24:54,181 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:35:47,463 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:35:47,467 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 14:35:47,468 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 14:35:47,471 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:35:47,472 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:38:56,330 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:38:56,330 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:38:56,334 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:38:56,338 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:38:56,342 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:40:29,342 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:40:29,342 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:40:29,346 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:40:29,346 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:40:29,346 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:40:59,752 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:40:59,756 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:40:59,756 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:40:59,760 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:40:59,760 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:41:07,133 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:41:07,136 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:41:07,138 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:41:07,139 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:41:07,139 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:41:47,753 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:41:47,753 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:41:47,757 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:41:47,761 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:41:47,761 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:42:22,096 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:42:22,098 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:42:22,100 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:42:22,106 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:42:22,107 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:42:26,344 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:42:26,346 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:42:26,348 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:42:26,350 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:42:26,351 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:42:47,256 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:42:47,260 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:42:47,260 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:42:47,264 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:42:47,268 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:43:17,863 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:43:17,863 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:43:17,868 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:43:17,871 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:43:17,871 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:56:46,723 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:56:46,727 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:56:46,731 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:56:46,735 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:56:46,735 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:58:09,160 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:58:09,164 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:58:09,164 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:58:09,168 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:58:09,168 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 14:59:58,161 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:59:58,161 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 14:59:58,165 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 14:59:58,165 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 14:59:58,165 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:01:37,139 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:01:37,143 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:01:37,147 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:01:37,147 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:01:37,147 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:24:57,661 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:24:57,669 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:24:57,669 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:24:57,673 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:24:57,673 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:28:26,683 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:28:26,683 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:28:26,689 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:28:26,690 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:28:26,691 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:30:55,401 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:30:55,401 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:30:55,405 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:30:55,409 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:30:55,409 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:31:53,757 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:31:53,761 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:31:53,769 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:31:53,773 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:31:53,773 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:32:53,976 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:32:53,980 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:32:53,980 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:32:53,984 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:32:53,984 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:33:44,205 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:33:44,205 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:33:44,209 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:33:44,209 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:33:44,213 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:35:52,177 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:35:52,181 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 15:35:52,181 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 15:35:52,185 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:35:52,185 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:37:50,049 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:37:50,053 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:37:50,061 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:37:50,065 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:37:50,065 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:41:12,291 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:41:12,295 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 15:41:12,295 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 15:41:12,303 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:41:12,303 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:42:32,011 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:42:32,014 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:42:32,022 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:42:32,026 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:42:32,026 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:43:04,908 [Worker-365] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:43:04,908 [Worker-365] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:43:04,912 [Worker-365] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:43:04,916 [Worker-365] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:43:04,916 [Worker-365] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:49:47,678 [Worker-367] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:49:47,684 [Worker-367] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:49:47,722 [Worker-367] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:49:47,725 [Worker-367] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:49:47,726 [Worker-367] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:49:57,929 [Worker-368] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:49:57,929 [Worker-368] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:49:57,929 [Worker-368] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:49:57,933 [Worker-368] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:49:57,933 [Worker-368] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 15:52:16,329 [Worker-370] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:52:16,333 [Worker-370] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 15:52:16,337 [Worker-370] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 15:52:16,341 [Worker-370] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 15:52:16,341 [Worker-370] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 18:51:55,988 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 18:51:55,991 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 18:51:55,994 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 18:51:55,996 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 18:51:55,997 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 19:43:53,084 [Worker-407] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 19:43:53,098 [Worker-407] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 19:43:53,099 [Worker-407] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-26 19:43:53,100 [Worker-407] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 19:43:53,101 [Worker-407] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-26 19:45:10,143 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 19:45:10,146 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-26 19:45:10,148 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-26 19:45:10,150 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-26 19:45:10,150 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-04-27 10:31:32,479 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-27 10:31:32,488 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-04-27 10:31:32,498 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-27 10:31:32,501 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-27 10:31:32,502 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-06-21 10:45:08,201 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-21 10:45:08,264 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-06-21 10:45:08,314 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-21 10:45:08,321 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-21 10:45:08,321 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-06-21 23:33:47,584 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-21 23:33:48,131 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-06-21 23:33:48,284 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-21 23:33:48,284 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-21 23:33:48,284 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources
+2018-07-05 19:49:06,878 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-05 19:49:06,899 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-07-05 19:49:06,915 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-05 19:49:06,927 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-05 19:49:06,927 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\RestwithMavenWorkspace\RestAssuredFW\src\test\resources

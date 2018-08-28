@@ -1,0 +1,41 @@
+{ 
+"configName":"DynamicAuto1",
+"configDescription":"Config created using Automation",
+"key1":{ 
+"columnName":"LoanPrograms",
+"factAttribute":"@program.name"
+},
+"key2":{ 
+"columnName":"LoanType",
+"factAttribute":"@program.type"
+},
+"key3":null,
+"key4":null,
+"key5":null,
+
+"dynamicConfigDataFlag":true,
+"data":[ 
+{ 
+"LoanPrograms":"Program A",
+"LoanType":"Conventional",
+"AmortType":"Fixed",
+"Term":"360",
+"MaxLTV":"95.00",
+"MinLoanAmount":"50000",
+"MaxLoanAmount":"400000",
+"MaxDTI":"48",
+"MinCreditScore":"620"
+},
+{ 
+"LoanPrograms":"Program B",
+"LoanType":"Conventional",
+"AmortType":"Fixed",
+"Term":"360",
+"MaxLTV":"95.00",
+"MinLoanAmount":"50000",
+"MaxLoanAmount":"400000",
+"MaxDTI":"48",
+"MinCreditScore":"620"
+}
+]
+}

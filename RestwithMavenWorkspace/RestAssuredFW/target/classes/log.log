@@ -1,0 +1,314 @@
+2018-04-22 08:07:37 INFO  CreateSimpleRule:23 - Starting Test case : CreateSimple Rule
+2018-04-22 08:07:37 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-22 08:07:37 INFO  URL:16 - URI End Point :http://10.0.30.103:8080//rulify/v1/rule
+2018-04-22 08:07:37 INFO  RESTCalls:27 - Inside POST Request
+2018-04-22 08:07:39 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://10.0.30.103:8080
+2018-04-22 08:07:39 DEBUG DefaultClientConnectionOperator:177 - Connecting to 10.0.30.103:8080
+2018-04-22 08:07:39 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-04-22 08:07:39 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-04-22 08:07:39 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2018-04-22 08:07:39 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-04-22 08:07:39 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-04-22 08:07:39 DEBUG DefaultClientConnection:274 - Sending request: POST /%2F%2Frulify/v1/rule HTTP/1.1
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "POST /%2F%2Frulify/v1/rule HTTP/1.1[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "Content-Length: 1507[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "Host: 10.0.30.103:8080[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "[\r][\n]"
+2018-04-22 08:07:39 DEBUG headers:278 - >> POST /%2F%2Frulify/v1/rule HTTP/1.1
+2018-04-22 08:07:39 DEBUG headers:281 - >> Accept: */*
+2018-04-22 08:07:39 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2018-04-22 08:07:39 DEBUG headers:281 - >> Content-Length: 1507
+2018-04-22 08:07:39 DEBUG headers:281 - >> Host: 10.0.30.103:8080
+2018-04-22 08:07:39 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-04-22 08:07:39 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-04-22 08:07:39 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "{  [\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "ruleName":"FirstAutomate1",[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "description":"Firstautomate -description1",[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "dsl":"[condition][]There is Loan=$inputPayload : HashMap()\r\n[condition][]-having Loan transaction type {String_0}=eval({String_0}.equalsIgnoreCase((String) DomainUtility.get($inputPayload,\"loan.transactionType\")))\r\n[condition][]-having Borrower credit score greater than {Integer_0}=eval({Integer_0} < Integer.valueOf(DomainUtility.get($inputPayload,\"borrower.creditScore\").toString())) \r\n[consequence][]Loan is feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is feasible\");\r\n[consequence][]Loan is not feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is not feasible\");",[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   [\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "dslr":"package com.demoRuleimport com.altisource.ruleengine.util.DomainUtility;import java.util.Map;import java.util.HashMap;global com.altisource.ruleengine.model.RuleResponse ruleResponse; rule \"Loan is feasible if TransactionType is Purchase\"activation-group \"feasibility\"salience 2when\t\tThere is Loan        -having Loan transaction type \"Purchase\"        -having Borrower credit score greater than 400then       Loan is feasibleendrule \"Loan is not feasible if TransactionType is not Purchase\"activation-group \"feasibility\"salience 1when\t\tThere is Loanthen       Loan is not feasibleend",[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "drl":null,[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "logicalOperator":null,[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "ruleMappings":null,[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "ruleCombinator":null,[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "active":true,[\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "   "configData":[  [\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "    "ProgramLimit119"  [\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:73 -  >> "      ][\r][\n]"
+2018-04-22 08:07:39 DEBUG wire:87 -  >> "}"
+2018-04-22 08:07:40 DEBUG wire:73 -  << "HTTP/1.1 400 [\r][\n]"
+2018-04-22 08:07:40 DEBUG wire:73 -  << "Content-Length: 0[\r][\n]"
+2018-04-22 08:07:40 DEBUG wire:73 -  << "Date: Sun, 22 Apr 2018 02:37:40 GMT[\r][\n]"
+2018-04-22 08:07:40 DEBUG wire:73 -  << "Connection: close[\r][\n]"
+2018-04-22 08:07:40 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-22 08:07:40 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 400 
+2018-04-22 08:07:40 DEBUG headers:262 - << HTTP/1.1 400 
+2018-04-22 08:07:40 DEBUG headers:265 - << Content-Length: 0
+2018-04-22 08:07:40 DEBUG headers:265 - << Date: Sun, 22 Apr 2018 02:37:40 GMT
+2018-04-22 08:07:40 DEBUG headers:265 - << Connection: close
+2018-04-22 08:07:40 DEBUG RESTCalls:31 - io.restassured.internal.RequestSpecificationImpl@37efd131
+2018-04-22 08:07:40 INFO  CreateSimpleRule:28 - 
+2018-04-22 08:09:20 INFO  CreateSimpleRule:23 - Starting Test case : CreateSimple Rule
+2018-04-22 08:09:20 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-22 08:09:20 INFO  URL:16 - URI End Point :http://10.0.30.150:8080//rulify/v1/rule
+2018-04-22 08:09:20 INFO  RESTCalls:27 - Inside POST Request
+2018-04-22 08:09:22 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://10.0.30.150:8080
+2018-04-22 08:09:22 DEBUG DefaultClientConnectionOperator:177 - Connecting to 10.0.30.150:8080
+2018-04-22 08:09:23 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-04-22 08:09:23 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-04-22 08:09:23 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2018-04-22 08:09:23 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-04-22 08:09:23 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-04-22 08:09:23 DEBUG DefaultClientConnection:274 - Sending request: POST /%2F%2Frulify/v1/rule HTTP/1.1
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "POST /%2F%2Frulify/v1/rule HTTP/1.1[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "Content-Length: 1507[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "Host: 10.0.30.150:8080[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "[\r][\n]"
+2018-04-22 08:09:23 DEBUG headers:278 - >> POST /%2F%2Frulify/v1/rule HTTP/1.1
+2018-04-22 08:09:23 DEBUG headers:281 - >> Accept: */*
+2018-04-22 08:09:23 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2018-04-22 08:09:23 DEBUG headers:281 - >> Content-Length: 1507
+2018-04-22 08:09:23 DEBUG headers:281 - >> Host: 10.0.30.150:8080
+2018-04-22 08:09:23 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-04-22 08:09:23 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-04-22 08:09:23 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "{  [\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "ruleName":"FirstAutomate1",[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "description":"Firstautomate -description1",[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "dsl":"[condition][]There is Loan=$inputPayload : HashMap()\r\n[condition][]-having Loan transaction type {String_0}=eval({String_0}.equalsIgnoreCase((String) DomainUtility.get($inputPayload,\"loan.transactionType\")))\r\n[condition][]-having Borrower credit score greater than {Integer_0}=eval({Integer_0} < Integer.valueOf(DomainUtility.get($inputPayload,\"borrower.creditScore\").toString())) \r\n[consequence][]Loan is feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is feasible\");\r\n[consequence][]Loan is not feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is not feasible\");",[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   [\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "dslr":"package com.demoRuleimport com.altisource.ruleengine.util.DomainUtility;import java.util.Map;import java.util.HashMap;global com.altisource.ruleengine.model.RuleResponse ruleResponse; rule \"Loan is feasible if TransactionType is Purchase\"activation-group \"feasibility\"salience 2when\t\tThere is Loan        -having Loan transaction type \"Purchase\"        -having Borrower credit score greater than 400then       Loan is feasibleendrule \"Loan is not feasible if TransactionType is not Purchase\"activation-group \"feasibility\"salience 1when\t\tThere is Loanthen       Loan is not feasibleend",[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "drl":null,[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "logicalOperator":null,[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "ruleMappings":null,[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "ruleCombinator":null,[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "active":true,[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "   "configData":[  [\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "    "ProgramLimit119"  [\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  >> "      ][\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:87 -  >> "}"
+2018-04-22 08:09:23 DEBUG wire:73 -  << "HTTP/1.1 400 [\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  << "Content-Length: 0[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  << "Date: Sun, 22 Apr 2018 02:39:23 GMT[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  << "Connection: close[\r][\n]"
+2018-04-22 08:09:23 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-22 08:09:23 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 400 
+2018-04-22 08:09:23 DEBUG headers:262 - << HTTP/1.1 400 
+2018-04-22 08:09:23 DEBUG headers:265 - << Content-Length: 0
+2018-04-22 08:09:23 DEBUG headers:265 - << Date: Sun, 22 Apr 2018 02:39:23 GMT
+2018-04-22 08:09:23 DEBUG headers:265 - << Connection: close
+2018-04-22 08:09:23 DEBUG RESTCalls:31 - io.restassured.internal.RequestSpecificationImpl@616fe72b
+2018-04-22 08:09:23 INFO  CreateSimpleRule:28 - 
+2018-04-26 15:34:12 INFO  BaseTest:42 - Starting Test case : CreateSimple Rule
+2018-04-26 15:34:13 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-26 15:34:13 INFO  RESTCalls:31 - Inside POST Request
+2018-04-26 15:34:17 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:8080
+2018-04-26 15:34:18 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:34:19 DEBUG DefaultClientConnectionOperator:198 - Connect to localhost:8080 timed out. Connection will be retried using another IP address
+2018-04-26 15:34:19 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:34:20 DEBUG DefaultClientConnection:180 - Connection org.apache.http.impl.conn.DefaultClientConnection@c5dc4a2 closed
+2018-04-26 15:34:20 DEBUG DefaultClientConnection:164 - Connection org.apache.http.impl.conn.DefaultClientConnection@c5dc4a2 shut down
+2018-04-26 15:34:20 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4a194c39
+2018-04-26 15:37:58 INFO  BaseTest:42 - Starting Test case : CreateSimple Rule
+2018-04-26 15:37:58 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-26 15:37:58 INFO  RESTCalls:31 - Inside POST Request
+2018-04-26 15:38:01 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:8080
+2018-04-26 15:38:01 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:38:02 DEBUG DefaultClientConnectionOperator:198 - Connect to localhost:8080 timed out. Connection will be retried using another IP address
+2018-04-26 15:38:02 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:38:03 DEBUG DefaultClientConnection:180 - Connection org.apache.http.impl.conn.DefaultClientConnection@4a194c39 closed
+2018-04-26 15:38:03 DEBUG DefaultClientConnection:164 - Connection org.apache.http.impl.conn.DefaultClientConnection@4a194c39 shut down
+2018-04-26 15:38:03 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@52066604
+2018-04-26 15:41:35 INFO  BaseTest:42 - Starting Test case : CreateSimple Rule
+2018-04-26 15:41:35 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-26 15:41:35 INFO  RESTCalls:31 - Inside POST Request
+2018-04-26 15:41:37 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:8080
+2018-04-26 15:41:37 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:41:38 DEBUG DefaultClientConnectionOperator:198 - Connect to localhost:8080 timed out. Connection will be retried using another IP address
+2018-04-26 15:41:38 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:41:39 DEBUG DefaultClientConnection:180 - Connection org.apache.http.impl.conn.DefaultClientConnection@4a194c39 closed
+2018-04-26 15:41:39 DEBUG DefaultClientConnection:164 - Connection org.apache.http.impl.conn.DefaultClientConnection@4a194c39 shut down
+2018-04-26 15:41:39 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@52066604
+2018-04-26 15:42:38 INFO  BaseTest:42 - Starting Test case : CreateSimple Rule
+2018-04-26 15:42:38 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-26 15:42:38 INFO  RESTCalls:31 - Inside POST Request
+2018-04-26 15:42:41 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:8080
+2018-04-26 15:42:41 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:42:42 DEBUG DefaultClientConnectionOperator:198 - Connect to localhost:8080 timed out. Connection will be retried using another IP address
+2018-04-26 15:42:42 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-04-26 15:42:43 DEBUG DefaultClientConnection:180 - Connection org.apache.http.impl.conn.DefaultClientConnection@4a194c39 closed
+2018-04-26 15:42:43 DEBUG DefaultClientConnection:164 - Connection org.apache.http.impl.conn.DefaultClientConnection@4a194c39 shut down
+2018-04-26 15:42:43 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@52066604
+2018-04-26 15:43:14 INFO  BaseTest:42 - Starting Test case : CreateSimple Rule
+2018-04-26 15:43:14 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-26 15:43:14 INFO  RESTCalls:31 - Inside POST Request
+2018-04-26 15:43:16 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://10.0.30.150:8080
+2018-04-26 15:43:16 DEBUG DefaultClientConnectionOperator:177 - Connecting to 10.0.30.150:8080
+2018-04-26 15:43:17 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-04-26 15:43:17 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-04-26 15:43:17 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2018-04-26 15:43:17 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-04-26 15:43:17 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-04-26 15:43:17 DEBUG DefaultClientConnection:274 - Sending request: POST /rulify/v1/rule HTTP/1.1
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "POST /rulify/v1/rule HTTP/1.1[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "UID: abcd[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "APPLICATION_ID: 1[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "TENANT_ID: 1[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "Content-Length: 1499[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "Host: 10.0.30.150:8080[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "[\r][\n]"
+2018-04-26 15:43:17 DEBUG headers:278 - >> POST /rulify/v1/rule HTTP/1.1
+2018-04-26 15:43:17 DEBUG headers:281 - >> UID: abcd
+2018-04-26 15:43:17 DEBUG headers:281 - >> Accept: */*
+2018-04-26 15:43:17 DEBUG headers:281 - >> APPLICATION_ID: 1
+2018-04-26 15:43:17 DEBUG headers:281 - >> TENANT_ID: 1
+2018-04-26 15:43:17 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2018-04-26 15:43:17 DEBUG headers:281 - >> Content-Length: 1499
+2018-04-26 15:43:17 DEBUG headers:281 - >> Host: 10.0.30.150:8080
+2018-04-26 15:43:17 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-04-26 15:43:17 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-04-26 15:43:17 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "{  [\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "ruleName":"FirstAutomate4",[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "description":"Firstautomate -description4",[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "dsl":"[condition][]There is Loan=$inputPayload : HashMap()\r\n[condition][]-having Loan transaction type {String_0}=eval({String_0}.equalsIgnoreCase((String) DomainUtility.get($inputPayload,\"loan.transactionType\")))\r\n[condition][]-having Borrower credit score greater than {Integer_0}=eval({Integer_0} < Integer.valueOf(DomainUtility.get($inputPayload,\"borrower.creditScore\").toString())) \r\n[consequence][]Loan is feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is feasible\");\r\n[consequence][]Loan is not feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is not feasible\");",[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "dslr":"package com.demoRuleimport com.altisource.ruleengine.util.DomainUtility;import java.util.Map;import java.util.HashMap;global com.altisource.ruleengine.model.RuleResponse ruleResponse; rule \"Loan is feasible if TransactionType is Purchase\"activation-group \"feasibility\"salience 2when\t\tThere is Loan        -having Loan transaction type \"Purchase\"        -having Borrower credit score greater than 400then       Loan is feasibleendrule \"Loan is not feasible if TransactionType is not Purchase\"activation-group \"feasibility\"salience 1when\t\tThere is Loanthen       Loan is not feasibleend",[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "drl":null,[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "logicalOperator":null,[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "ruleMappings":null,[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "ruleCombinator":null,[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "active":true,[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   "configData":[  [\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "      "ProgramLimit119"[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  >> "   ][\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:87 -  >> "}"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, HEAD, OPTIONS, DELETE, PUT[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "Access-Control-Allow-Headers: application_id, enctype, tenant_id, uid, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "Date: Thu, 26 Apr 2018 10:13:04 GMT[\r][\n]"
+2018-04-26 15:43:17 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-26 15:43:17 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2018-04-26 15:43:17 DEBUG headers:262 - << HTTP/1.1 200 
+2018-04-26 15:43:17 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2018-04-26 15:43:17 DEBUG headers:265 - << Access-Control-Allow-Credentials: true
+2018-04-26 15:43:17 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, HEAD, OPTIONS, DELETE, PUT
+2018-04-26 15:43:17 DEBUG headers:265 - << Access-Control-Allow-Headers: application_id, enctype, tenant_id, uid, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers
+2018-04-26 15:43:17 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2018-04-26 15:43:17 DEBUG headers:265 - << Transfer-Encoding: chunked
+2018-04-26 15:43:17 DEBUG headers:265 - << Date: Thu, 26 Apr 2018 10:13:04 GMT
+2018-04-26 15:43:17 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2018-04-26 15:43:18 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2018-04-26 15:43:18 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-04-26 15:43:18 DEBUG wire:73 -  << "93[\r][\n]"
+2018-04-26 15:43:18 DEBUG wire:87 -  << "{"status":"OK","error":null,"response":{"message":"Rule created successfully","entityId":"fa24e1b2-b623-488b-bc88-5cbfa774b683","entityVersion":1}}"
+2018-04-26 15:43:18 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-26 15:43:18 DEBUG wire:73 -  << "0[\r][\n]"
+2018-04-26 15:43:18 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-26 15:43:18 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@52de51b6
+2018-04-26 15:43:18 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2018-04-26 15:43:18 INFO  BaseTest:53 - {"status":"OK","error":null,"response":{"message":"Rule created successfully","entityId":"fa24e1b2-b623-488b-bc88-5cbfa774b683","entityVersion":1}}
+2018-04-26 19:46:43 INFO  CreateSimpleRule:35 - Starting Test case : CreateSimple Rule
+2018-04-26 19:46:43 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-26 19:46:43 INFO  RESTCalls:31 - Inside POST Request
+2018-04-26 19:46:45 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://10.0.30.150:8080
+2018-04-26 19:46:45 DEBUG DefaultClientConnectionOperator:177 - Connecting to 10.0.30.150:8080
+2018-04-26 19:46:47 DEBUG DefaultClientConnection:180 - Connection org.apache.http.impl.conn.DefaultClientConnection@52066604 closed
+2018-04-26 19:46:47 DEBUG DefaultClientConnection:164 - Connection org.apache.http.impl.conn.DefaultClientConnection@52066604 shut down
+2018-04-26 19:46:47 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@340b9973
+2018-04-27 10:25:08 INFO  CreateSimpleRule:35 - Starting Test case : CreateSimple Rule
+2018-04-27 10:25:08 INFO  PayloadConverter:16 - Inside Payload Convertor function
+2018-04-27 10:25:08 INFO  RESTCalls:31 - Inside POST Request
+2018-04-27 10:25:11 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://10.0.30.150:8080
+2018-04-27 10:25:11 DEBUG DefaultClientConnectionOperator:177 - Connecting to 10.0.30.150:8080
+2018-04-27 10:25:11 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-04-27 10:25:11 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-04-27 10:25:11 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2018-04-27 10:25:11 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-04-27 10:25:11 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-04-27 10:25:11 DEBUG DefaultClientConnection:274 - Sending request: POST /rulify/v1/rule HTTP/1.1
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "POST /rulify/v1/rule HTTP/1.1[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "UID: abcd[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "APPLICATION_ID: 1[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "TENANT_ID: 1[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "Content-Length: 1499[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "Host: 10.0.30.150:8080[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "[\r][\n]"
+2018-04-27 10:25:11 DEBUG headers:278 - >> POST /rulify/v1/rule HTTP/1.1
+2018-04-27 10:25:11 DEBUG headers:281 - >> UID: abcd
+2018-04-27 10:25:11 DEBUG headers:281 - >> Accept: */*
+2018-04-27 10:25:11 DEBUG headers:281 - >> APPLICATION_ID: 1
+2018-04-27 10:25:11 DEBUG headers:281 - >> TENANT_ID: 1
+2018-04-27 10:25:11 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2018-04-27 10:25:11 DEBUG headers:281 - >> Content-Length: 1499
+2018-04-27 10:25:11 DEBUG headers:281 - >> Host: 10.0.30.150:8080
+2018-04-27 10:25:11 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-04-27 10:25:11 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-04-27 10:25:11 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "{  [\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "ruleName":"FirstAutomate4",[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "description":"Firstautomate -description4",[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "dsl":"[condition][]There is Loan=$inputPayload : HashMap()\r\n[condition][]-having Loan transaction type {String_0}=eval({String_0}.equalsIgnoreCase((String) DomainUtility.get($inputPayload,\"loan.transactionType\")))\r\n[condition][]-having Borrower credit score greater than {Integer_0}=eval({Integer_0} < Integer.valueOf(DomainUtility.get($inputPayload,\"borrower.creditScore\").toString())) \r\n[consequence][]Loan is feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is feasible\");\r\n[consequence][]Loan is not feasible=ruleResponse.getExecutionResponse().put(\"message\",\"Loan is not feasible\");",[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "dslr":"package com.demoRuleimport com.altisource.ruleengine.util.DomainUtility;import java.util.Map;import java.util.HashMap;global com.altisource.ruleengine.model.RuleResponse ruleResponse; rule \"Loan is feasible if TransactionType is Purchase\"activation-group \"feasibility\"salience 2when\t\tThere is Loan        -having Loan transaction type \"Purchase\"        -having Borrower credit score greater than 400then       Loan is feasibleendrule \"Loan is not feasible if TransactionType is not Purchase\"activation-group \"feasibility\"salience 1when\t\tThere is Loanthen       Loan is not feasibleend",[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "drl":null,[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "logicalOperator":null,[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "ruleMappings":null,[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "ruleCombinator":null,[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "active":true,[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   "configData":[  [\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "      "ProgramLimit119"[\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:73 -  >> "   ][\r][\n]"
+2018-04-27 10:25:11 DEBUG wire:87 -  >> "}"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST, GET, HEAD, OPTIONS, DELETE, PUT[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "Access-Control-Allow-Headers: application_id, enctype, tenant_id, uid, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "Date: Fri, 27 Apr 2018 04:54:56 GMT[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-27 10:25:12 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+2018-04-27 10:25:12 DEBUG headers:262 - << HTTP/1.1 200 
+2018-04-27 10:25:12 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2018-04-27 10:25:12 DEBUG headers:265 - << Access-Control-Allow-Credentials: true
+2018-04-27 10:25:12 DEBUG headers:265 - << Access-Control-Allow-Methods: POST, GET, HEAD, OPTIONS, DELETE, PUT
+2018-04-27 10:25:12 DEBUG headers:265 - << Access-Control-Allow-Headers: application_id, enctype, tenant_id, uid, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers
+2018-04-27 10:25:12 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2018-04-27 10:25:12 DEBUG headers:265 - << Transfer-Encoding: chunked
+2018-04-27 10:25:12 DEBUG headers:265 - << Date: Fri, 27 Apr 2018 04:54:56 GMT
+2018-04-27 10:25:12 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2018-04-27 10:25:12 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2018-04-27 10:25:12 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-04-27 10:25:12 DEBUG wire:73 -  << "78[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:87 -  << "{"status":"Failed","error":[{"errorCode":"RMS003","errorMessage":"Rule already exists with Rule name: FirstAutomate4"}]}"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "0[\r][\n]"
+2018-04-27 10:25:12 DEBUG wire:73 -  << "[\r][\n]"
+2018-04-27 10:25:12 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@68ad99fe
+2018-04-27 10:25:12 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2018-04-27 10:25:12 INFO  CreateSimpleRule:46 - {"status":"Failed","error":[{"errorCode":"RMS003","errorMessage":"Rule already exists with Rule name: FirstAutomate4"}]}
